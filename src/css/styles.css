@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffe6f2;
+}
+
+.container {
+    background-color: white;
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #d63384;
+    margin-bottom: 30px;
+}
+
+.tabs {
+    border-bottom: 2px solid #ff69b4;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background-color: #f8f9fa;
+    border: 1px solid #ff69b4;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+    color: #666;
+}
+
+.tab-button.active {
+    background-color: #ff69b4;
+    color: white;
+    border-bottom: 2px solid #ff69b4;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff5f8;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.character-box {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info {
+    line-height: 1.6;
+    color: #555;
+}
+
+.sakura { border-left: 4px solid #ff69b4; }
+.syaoran { border-left: 4px solid #28a745; }
+.tomoyo { border-left: 4px solid #6f42c1; }
+.kero { border-left: 4px solid #fd7e14; }
