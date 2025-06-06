@@ -61,12 +61,32 @@ h1 {
     margin-bottom: 20px;
 }
 
+.character-image {
+    display: block;
+    max-width: 200px;
+    height: auto;
+    margin: 20px auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
 .info {
     line-height: 1.6;
     color: #555;
 }
 
-.sakura { border-left: 4px solid #ff69b4; }
-.syaoran { border-left: 4px solid #28a745; }
-.tomoyo { border-left: 4px solid #6f42c1; }
-.kero { border-left: 4px solid #fd7e14; }
+.sakura { 
+    border-left: 4px solid #ff69b4; 
+}
+
+.syaoran { 
+    border-left: 4px solid #28a745; 
+}
+
+.tomoyo { 
+    border-left: 4px solid #6f42c1; 
+}
+
+.kero { 
+    border-left: 4px solid #fd7e14; 
+}
